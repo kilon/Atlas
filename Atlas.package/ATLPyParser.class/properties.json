@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "kilonAlios 11/29/2016 10:53",
+	"super" : "Object",
+	"category" : "Atlas",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"PythonString",
+		"badMessage"
+	],
+	"instvars" : [
+		"pythonString",
+		"referencedString"
+	],
+	"name" : "ATLPyParser",
+	"type" : "normal"
+}

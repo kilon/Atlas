@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "kilonAlios 11/29/2016 10:51",
+	"super" : "Object",
+	"category" : "Atlas",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Atlas",
+	"type" : "normal"
+}
