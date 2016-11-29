@@ -4,5 +4,10 @@ baseline: spec
 	spec
 		for: #pharo
 		do:
-			[ spec package: 'Atlas'	. 
+			[
+			spec
+				baseline: 'Atlas' with: [ spec repository: 'github://kilonr/Atlas' ];
+				import: 'Atlas' provides: #('default').
+				 
+			spec package: 'Atlas'	with: [ spec requires: 'default' ]. 
  ]	
